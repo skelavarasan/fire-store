@@ -56,34 +56,34 @@ body{
 .appx {
     width: 100vw;
     height: 100vh;
-    position: relative; /* Make it a positioning context for absolute positioning */
+    position: relative; 
 }
 
 .vikx {
     position: absolute;
-    top: 10px; /* Adjust the top position as needed */
-    right: 10px; /* Adjust the right position as needed */
+    top: 10px;
+    right: 10px;
 }
 
 
 .signout-button {
-    background-color: #FF5733; /* Change the background color to your preferred color */
-    color: #FFF; /* Text color */
+    background-color: #FF5733; 
+    color: #FFF; 
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Add a transition effect */
+    transition: background-color 0.3s;
 }
-
 .signout-button:hover {
-    background-color: #E94F26; /* Change the background color on hover */
+    background-color: #E94F26; 
 }
 .awesome-welcome {
-    text-align: center; /* Center the text horizontally */
-    position: absolute; /* Position the element absolutely */
-    top: 50%; /* Move the element 50% from the top */
-    left: 50%; /* Move the element 50% from the left */
-    transform: translate(-50%, -50%); /* Center the element both horizontally and vertically */
+    text-align: center; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
 }
+

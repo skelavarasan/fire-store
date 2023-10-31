@@ -25,9 +25,9 @@
 // export { auth };
 
 
-
-
+// FirebaseConfig.js
 import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
 import { getDatabase } from 'firebase/database';
 
 const firebaseConfig = {
@@ -38,9 +38,10 @@ const firebaseConfig = {
     messagingSenderId: "425179376459",
     appId: "1:425179376459:web:3d4c76da07367eb60e96ce",
     measurementId: "G-SYJ11QEWN8"
-  };
+};
 
-const firebaseApp = initializeApp(firebaseConfig);
-const database = getDatabase(firebaseApp);
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const database = getDatabase(app);
 
-export { database };
+export { app, auth, database };
