@@ -3,7 +3,7 @@ import { signOut } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
 import Sidebar from '../PasswordLoginWithFirebase/sidebar';
 import { auth } from './FirebaseConfig';
-import './Home.css'; // Import a CSS file for Home-specific styles
+import './Home.css'; 
 
 function Home() {
   const history = useNavigate();
